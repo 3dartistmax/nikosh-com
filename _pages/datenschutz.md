@@ -2,7 +2,6 @@
 title: "Privacy policy"
 permalink: /datenschutz/
 layout: single
-author_profile: false
 ---
 
 **Languages:** [English](#english) | [Deutsch](#deutsch)

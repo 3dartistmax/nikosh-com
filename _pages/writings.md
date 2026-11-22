@@ -2,7 +2,6 @@
 title: "Writings"
 permalink: /writings/
 layout: archive
-author_profile: false
 ---
 
 {% assign writings = site.posts | where_exp: "post", "post.hidden != true" %}

@@ -63,23 +63,32 @@ collections:
 
 defaults:
   - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
+  - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
-      author_profile: false
   - scope:
       path: "_artworks"
       type: artworks
     values:
       layout: artwork
-      author_profile: false
+      author_profile: true
   - scope:
       path: "_status"
       type: status
     values:
       layout: single
-      author_profile: false
+      author_profile: true
 
 after_footer_scripts:
   - /assets/js/site-enhancements.js

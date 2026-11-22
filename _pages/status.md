@@ -2,7 +2,6 @@
 title: Status
 permalink: /status/
 layout: single
-author_profile: false
 ---
 
 {% for entry in site.status reversed %}

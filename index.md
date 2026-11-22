@@ -1,7 +1,6 @@
 ---
 layout: archive
 title: "Recent writings"
-author_profile: true
 ---
 
 This is the personal website of Nikosh Chaulagain, featuring writing and creative work.
