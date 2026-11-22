@@ -8,6 +8,7 @@ name: "Nikosh Chaulagain"
 description: "Writing and creative work by Nikosh Chaulagain."
 url: "https://3dartistmax.github.io"
 baseurl: "/nikosh-com"
+copyright_url: "https://3dartistmax.github.io/nikosh-com/"
 breadcrumbs: false
 search: false
 
