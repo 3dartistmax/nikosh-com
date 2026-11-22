@@ -3,6 +3,10 @@ main:
     url: /
   - title: "About"
     url: /about/
+  - title: "Gallery"
+    url: /artworks/
+  - title: "Status"
+    url: /status/
   - title: "Impressum / Legal notice"
     url: /impressum/
   - title: "Datenschutz / Privacy policy"

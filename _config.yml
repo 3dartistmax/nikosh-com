@@ -53,6 +53,12 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+collections:
+  status:
+    output: true
+  artworks:
+    output: true
+
 defaults:
   - scope:
       path: "_pages"
@@ -60,3 +66,18 @@ defaults:
     values:
       layout: single
       author_profile: false
+  - scope:
+      path: "_artworks"
+      type: artworks
+    values:
+      layout: artwork
+      author_profile: false
+  - scope:
+      path: "_status"
+      type: status
+    values:
+      layout: single
+      author_profile: false
+
+after_footer_scripts:
+  - /assets/js/site-enhancements.js
