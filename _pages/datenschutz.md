@@ -1,5 +1,5 @@
 ---
-title: "Datenschutz / Privacy policy"
+title: "Privacy policy"
 permalink: /datenschutz/
 layout: single
 author_profile: false

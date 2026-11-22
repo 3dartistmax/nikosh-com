@@ -15,14 +15,15 @@ search: false
 author:
   name: "Nikosh Chaulagain"
   bio: "Writing and creative work."
+  avatar: "/assets/images/bio-photo.jpg"
   email: "contact@nikosh.com.np"
 
 footer:
   links:
-    - label: "Impressum / Legal notice"
+    - label: "Impressum"
       icon: "fas fa-fw fa-scale-balanced"
       url: /impressum/
-    - label: "Datenschutz / Privacy policy"
+    - label: "Privacy policy"
       icon: "fas fa-fw fa-shield-halved"
       url: /datenschutz/
 
