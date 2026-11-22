@@ -1,8 +1,7 @@
 ---
-title: "Impressum / Legal notice"
+title: "Impressum"
 permalink: /impressum/
 layout: single
-author_profile: false
 ---
 
 **Languages:** [English](#english) · [Deutsch](#deutsch)

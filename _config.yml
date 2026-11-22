@@ -6,22 +6,24 @@ title: "Nikosh Chaulagain"
 title_separator: "-"
 name: "Nikosh Chaulagain"
 description: "Writing and creative work by Nikosh Chaulagain."
-url: "https://nikosh.com.np"
-baseurl: ""
+url: "https://3dartistmax.github.io"
+baseurl: "/nikosh-com"
+copyright_url: "https://3dartistmax.github.io/nikosh-com/"
 breadcrumbs: false
 search: false
 
 author:
   name: "Nikosh Chaulagain"
   bio: "Writing and creative work."
+  avatar: "/assets/images/bio-photo.jpg"
   email: "contact@nikosh.com.np"
 
 footer:
   links:
-    - label: "Impressum / Legal notice"
+    - label: "Impressum"
       icon: "fas fa-fw fa-scale-balanced"
       url: /impressum/
-    - label: "Datenschutz / Privacy policy"
+    - label: "Privacy policy"
       icon: "fas fa-fw fa-shield-halved"
       url: /datenschutz/
 
@@ -61,23 +63,33 @@ collections:
 
 defaults:
   - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+  - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
-      author_profile: false
   - scope:
       path: "_artworks"
       type: artworks
     values:
       layout: artwork
-      author_profile: false
+      author_profile: true
   - scope:
       path: "_status"
       type: status
     values:
       layout: single
-      author_profile: false
+      author_profile: true
 
 after_footer_scripts:
   - /assets/js/site-enhancements.js

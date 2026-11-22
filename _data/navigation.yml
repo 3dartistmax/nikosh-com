@@ -1,13 +1,13 @@
 main:
-  - title: "Home"
-    url: /
-  - title: "About"
-    url: /about/
+  - title: "Writings"
+    url: /writings/
   - title: "Gallery"
     url: /artworks/
   - title: "Status"
     url: /status/
-  - title: "Impressum / Legal notice"
+  - title: "About"
+    url: /about/
+  - title: "Impressum"
     url: /impressum/
-  - title: "Datenschutz / Privacy policy"
+  - title: "Privacy policy"
     url: /datenschutz/
