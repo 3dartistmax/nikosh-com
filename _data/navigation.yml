@@ -1,14 +1,9 @@
-# मुख्य लिङ्कहरू (Main Links)
 main:
-  - title: "लेखसंग्रह"
-    url: /posts/
-  - title: "कलसंग्रह"
-    url: /artworks/
-  - title: "हालको स्थिति"
-    url: /status/
-  - title: "मेरो बारेमा"
+  - title: "Home"
+    url: /
+  - title: "About"
     url: /about/
-  - title: "कानुनी सूचना / Impressum"
+  - title: "Impressum / Legal notice"
     url: /impressum/
-  - title: "गोपनीयता नीति / Datenschutzerklärung"
+  - title: "Datenschutz / Privacy policy"
     url: /datenschutz/
